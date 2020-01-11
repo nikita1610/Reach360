@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.reach360.reach360.MainActivity">
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_width="fill_parent"
+        android:layout_height="465dp"
+        >
+
+
+    </com.daimajia.slider.library.SliderLayout>
+    <Button
+        android:text="START"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/begin"
+        android:onClick="onClick"
+        android:background="@color/colorAccent"
+
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/background_light"
+        android:layout_marginBottom="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20sp">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="22sp"
+    android:textStyle="bold"
+    android:text="@string/app_name"
+    android:id="@+id/tvTitleDialog"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_below="@+id/tvTitleDialog"
+        android:id="@+id/tvSensitivity"/>
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sbSensitivity"
+        android:layout_below="@+id/tvSensitivity"
+        android:layout_marginTop="10sp"
+        android:maxHeight="3sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bDone"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/sbSensitivity"
+        android:layout_marginTop="20sp"
+        android:text="@string/app_name"
+        android:textStyle="bold"/>
+</RelativeLayout>
+
+
+
+
+
+
+
+
+

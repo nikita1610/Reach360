@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    tools:context="com.reach360.reach360.ShakeActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/adLayout"
+    android:layout_alignParentTop="true"
+    android:gravity="top"
+    android:padding="10sp">
+
+<GridView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:horizontalSpacing="10sp"
+    android:numColumns="4"
+    android:scrollbars="none"
+    android:verticalSpacing="10sp"
+    android:id="@+id/app_list"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp"
+        android:id="@+id/pBarLoadApps"/>
+</RelativeLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/adLayout"
+        android:layout_centerHorizontal="true">
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="AD_UNIT_ID" />
+
+        </HorizontalScrollView>
+    </ScrollView>
+</RelativeLayout>
+
+
+
+
+
+
+
