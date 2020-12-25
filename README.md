@@ -1,2 +1,2 @@
-# Reach360
+# Reach360 - A Safety Application
 An android application created using Android Studio and MySql. The purpose of this applicationis to help the person in danger.Focuses on providing an all in one safety application to users where users can track other people,can send emergency messages to the contacts they have added in their circle and view the crime intensity of the area from which they are passing by.Also this application provides shake alert feature which can launch the application on shake and can help the user.
